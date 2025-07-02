@@ -42,22 +42,6 @@ This project answers:
 
 ---
 
-## 📂 Project Structure
-
-bigbasket-nlp-analysis/
-│
-├── bigbasket_nlp_sentiment_analysis.ipynb # Main notebook
-├── README.md # This file
-├── requirements.txt # Python dependencies (optional)
-├── visuals/ # WordClouds, confusion matrices, etc. (optional)
-└── Big Basket App REVIEWs.xlsx # Raw review data
-
-yaml
-Copy
-Edit
-
----
-
 ## 📊 Model Results
 
 | Model               | Accuracy |
