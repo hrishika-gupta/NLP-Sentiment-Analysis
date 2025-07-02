@@ -44,3 +44,66 @@ This project answers:
 
 ## 📂 Project Structure
 
+bigbasket-nlp-analysis/
+│
+├── bigbasket_nlp_sentiment_analysis.ipynb # Main notebook
+├── README.md # This file
+├── requirements.txt # Python dependencies (optional)
+├── visuals/ # WordClouds, confusion matrices, etc. (optional)
+└── Big Basket App REVIEWs.xlsx # Raw review data
+
+yaml
+Copy
+Edit
+
+---
+
+## 📊 Model Results
+
+| Model               | Accuracy |
+|--------------------|----------|
+| Naive Bayes        | 87%      |
+| Logistic Regression| 92%      |
+| Random Forest      | 93%      |
+| Support Vector Machine | 93%  |
+
+✅ **SVM and Random Forest** were the top performers in multi-class sentiment classification.
+
+---
+
+## 🧠 Lexicon-Based Sentiment Methods
+
+| Lexicon     | Output Type         | Highlights |
+|-------------|---------------------|------------|
+| **NRClex**  | Dominant emotion per review | Captured 10 core emotions like trust, anger, sadness |
+| **SentiWordNet** | Scored words using synsets | Derived an overall polarity score |
+| **VADER**   | Compound sentiment score | Real-time, rule-based classification into pos/neg/neutral |
+
+---
+
+## 🔍 Topic Modeling (LDA)
+
+Extracted **5 latent topics** from the reviews:
+1. **Delivery & timing**
+2. **Product quality & packaging**
+3. **Offers & pricing**
+4. **App performance (bugs/UX)**
+5. **Customer support**
+
+Each topic was visualized using WordClouds for better interpretability.
+
+---
+
+## 📈 Visualizations
+
+- ✅ Confusion Matrices for all models  
+- ✅ Sentiment distribution (bar chart)  
+- ✅ NRClex emotion count chart  
+- ✅ Top 20 1-gram and 2-gram terms by sentiment  
+- ✅ Topic WordClouds (5 topics from LDA)
+
+> All visuals available inside the notebook or `/visuals` folder.
+
+---
+
+
